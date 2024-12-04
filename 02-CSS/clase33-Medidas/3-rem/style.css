@@ -3,8 +3,9 @@
   margin: 0;
   padding: 0;
 }
+/* esta cuenta hace que 1rem=10px */
 html {
-  font-size: 62.5%;
+  font-size: 62.5%;  
 }
 p {
   font-size: 1.6rem;

@@ -11,10 +11,10 @@ main {
 }
 
 section {
-  width: 100%;
-  min-width: 320px;
-  max-width: 500px;
-  height: 850px;
+  width: 80%;
+  height: 700px;
   background-color: red;
   margin: 0 auto;
+  min-width: 320px;
+  max-width: 500px;
 }

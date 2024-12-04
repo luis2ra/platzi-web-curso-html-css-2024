@@ -12,12 +12,13 @@ body {
 .container {
   border: 0.3rem solid black;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row; /* valor por defecto */
+  flex-wrap: nowrap; /* valor por defecto */
+  justify-content: flex-start; /* valor por defecto */
 }
 .box {
   height: 10rem;
-  flex-basis: 10rem;
-  flex-grow: 1;
+  width: 10rem;
 }
 .box1 {
   background-color: blue;
